@@ -2415,6 +2415,8 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 .navbar .navbar-form {
   border-top: none;
   box-shadow: none;
+  padding-top: 20px;
+  padding-bottom: 0px !important;
 }
 .navbar .navbar-nav > .open > a, .navbar .navbar-nav > .open > a:hover, .navbar .navbar-nav > .open > a:focus {
   background-color: transparent;
@@ -2761,7 +2763,8 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
   }
   .navbar .navbar-brand {
     height: 50px;
-    padding: 10px 15px;
+    padding: 0px 15px;
+    padding-right: 0px !important;
   }
   .navbar .navbar-nav > li > a {
     padding-top: 15px;
@@ -5768,7 +5771,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
 }
 .page-header .container {
   padding-top: 226px;
-  color: #FFFFFF;
+  color: #fff;
 }
 .page-header .title {
   color: #FFFFFF;
@@ -7673,7 +7676,7 @@ select.selectpicker {
   color: #FFFFFF;
 }
 .landing-page .wrapper {
-  background: #CCCCCC;
+  background: rgba(0, 188, 212, 0.08);
 }
 .landing-page .section-contacts {
   padding-top: 0;
@@ -7833,6 +7836,7 @@ select.selectpicker {
 .signup-page .navbar-transparent,
 .presentation-page .navbar-transparent {
   padding-top: 25px;
+  padding-bottom: -0px;
 }
 
 .contact-page .contact-content {
@@ -8051,6 +8055,7 @@ select.selectpicker {
   .navbar.navbar-transparent {
     padding-top: 10px;
     border-radius: 0;
+    padding-bottom: 20px !important;
   }
 
   .main-raised {
