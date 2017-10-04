@@ -1,52 +1,13 @@
 <template name="main">
-  <nav class="navbar navbar-transparent navbar-fixed-top" style="backround-color: rgba(0, 0, 0, 0.4)">
-    	<div class="container">
-        	<!-- Brand and toggle get grouped for better mobile display -->
-        	<div class="navbar-header">
-        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
-            		<span class="sr-only">Toggle navigation</span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-        		</button>
-        		<a class="navbar-brand js-scroll-trigger" href="#page-top" style="font-family:Ultra"><img src="/img/logo1.png" height="200px"/></a>
-        	</div>
-
-        	<div class="collapse navbar-collapse" id="navigation-example">
-	                <ul class="nav navbar-nav navbar-right">
-	                    <li>
-	                        <a href="#one">
-														About Us
-	                        </a>
-	                    </li>
-						<li>
-	                        <a href="#two">
-	                           Services
-	                        </a>
-	                    </li>
-	                    <li>
-	                        <a href="#three">
-														Team
-	                        </a>
-	                    </li>
-    									<li>
-	                        <a href="#four">
-														Contact
-	                        </a>
-	                    </li>
-	                </ul>
-        	</div>
-    	</div>
-    </nav>
-
+{{>nav}}
     <div class="wrapper">
         <div class="page-header header-filter" data-parallax="true" style="background-image: url('/img/fargo.jpg')">
 						<div class="container">
                 <div class="row">
 					<div class="col-md-6">
 						<h1 class="title" style="font-family:Ultra; font-weight:300">Web and print media focused on branding</h1>
-	                   <h4>
-Boomtown Media provides the latest in web-based, mobile-based, and traditional forms of sales and marketing materials for small businesses and other organizations, primarily in the Fargo/Moorhead metropolitan area.</h4>
+	                   <!-- <h4> -->
+<!-- Boomtown Media provides the latest in web-based, mobile-based, and traditional forms of sales and marketing materials for small businesses and other organizations, primarily in the Fargo/Moorhead metropolitan area.</h4> -->
 	                    <br />
 	                    <!-- <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-danger btn-raised btn-lg">
 							<i class="fa fa-play"></i> Watch video
@@ -99,8 +60,52 @@ Boomtown Media provides the latest in web-based, mobile-based, and traditional f
 		                    </div>
 		                </div>
 					</div>
+
 				</section>
+
+
+	<div class="blogs-1" id="blogs-1">
+
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-10 col-md-offset-1">
+					<h2 class="title">Mission</h2>
+
+					<br />
+					<div class="card card-plain card-blog">
+						<div class="row">
+							<div class="col-md-5">
+								<div class="card-image">
+									<img class="img img-raised" src="/img/1.jpg" />
+								</div>
+							</div>
+							<div class="col-md-6">
+								<h6 class="category text-info">Mission</h6>
+								<h3 class="card-title">
+									<a href="/blog#header">At Boomtown Media, we are entrepreneurs helping entrepreneurs.</a>
+								</h3>
+								<p class="card-description">
+									Here at Boomtown Media we are entrepenuers helping entrepenuers. We are passionate about driven, creative people that are not content to leave their world the same as they found it... <a href="/blog/#top"> Read More </a>
+								</p>
+								<p class="author">
+									by <a href="/blog#header"><b>Jake Sopher</b></a>
+								</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+		</div>
+	</div>
+
 	            </div>
+
 				<section id="three">
 	        	<div class="section text-center">
 	                <h2 class="title">Here is our team</h2>
