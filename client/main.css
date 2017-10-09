@@ -8,3 +8,13 @@
 .btn-blue {
   background-color: #00bcd4 !important;
 }
+
+.logo {
+  display: inline-block;
+   border-radius: 200px;
+   box-sizing: border-box;
+   background-color: #DDD;
+   border: 2px solid #cfd8dc;
+
+
+}
