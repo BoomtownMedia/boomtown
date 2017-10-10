@@ -11,6 +11,19 @@ $(document).ready(function(){
   })
 })
 
+$(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 300) {
+	    $("nav.navbar.navbar-transparent.navbar-fixed-top.contact").css("background-color" , "rgba(0,0,0,0.4)");
+	  }
+
+	  else{
+		  $("nav.navbar.navbar-transparent.navbar-fixed-top.contact").css("background-color" , "transparent");
+	  }
+  })
+})
+
 
 Template.main.events({
 
