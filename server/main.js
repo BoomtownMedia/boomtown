@@ -8,6 +8,7 @@ Meteor.startup(() => {
     server: 'smtp.gmail.com',
     port: 587
 }
+  process.env.METEOR_APP_DIR = '../.meteor'
   process.env.MAIL_URL = 'smtp://' + encodeURIComponent(smtp.username) + ':' + encodeURIComponent(smtp.password) + '@' + encodeURIComponent(smtp.server) + ':' + smtp.port;
 
 });
