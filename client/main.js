@@ -56,11 +56,11 @@ $(document).ready(function(){
 Template.footer.onCreated(function () {
   this.feed = new ReactiveVar();
 
-  var link = "https://graph.facebook.com/v2.11/isightrpv?fields=posts.limit(3)"
+  var link = "https://graph.facebook.com/v2.11/boomtownm?fields=posts.limit(3)"
   var arguments = {
     headers: { "User-Agent": "Meteor/1.1" },
     params: {
-      "access_token": "956271767862418|2XmW6Fr58RZKChHtB8m20AhOSJ8",
+      "access_token": "198250716990059|wwB7yaEBmlAfv6tskR7P8PiNVBI",
     }
   };
   Meteor.http.call('GET', link, arguments, function (error, response) {
