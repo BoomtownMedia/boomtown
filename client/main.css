@@ -1,7 +1,7 @@
 /* CSS declarations go here */
-.header{
+.header {
   position: absolute;
-  left:0 !important;
+  left: 0 !important;
   top: 0 !important;
 }
 
@@ -11,14 +11,16 @@
 
 .logo {
   display: inline-block;
-   border-radius: 200px;
-   box-sizing: border-box;
-   background-color: #DDD;
-   border: 2px solid #cfd8dc;
-
-
+  border-radius: 200px;
+  box-sizing: border-box;
+  background-color: #ddd;
+  border: 2px solid #cfd8dc;
 }
 
 section {
-  padding-top: 100px !important
+  /* padding-top: 100px !important */
+}
+
+.btn-boomtown {
+  /* background-color: #e89f3a; */
 }
