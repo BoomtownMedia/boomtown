@@ -113,6 +113,8 @@ routepolicy@1.0.12
 ryw:blog@0.8.6
 service-configuration@1.0.11
 session@1.1.7
+shcherbin:imagesloaded@3.1.8
+shcherbin:isotope@2.2.2
 shell-server@0.2.4
 simple:json-routes@1.0.4
 spacebars@1.0.15
