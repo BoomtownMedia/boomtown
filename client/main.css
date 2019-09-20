@@ -32,3 +32,6 @@ section {
 .card-title {
   font-family: "Roboto" !important;
 }
+.info {
+  text-align: left !important;
+}
