@@ -24,3 +24,11 @@ section {
 .btn-boomtown {
   /* background-color: #e89f3a; */
 }
+
+.title {
+  font-family: "Roboto" !important;
+}
+
+.card-title {
+  font-family: "Roboto" !important;
+}
