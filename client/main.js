@@ -74,31 +74,5 @@ Template.main.onRendered(function() {
 
 //// Facebook API call (added 7/20/2019 AF, JS)
 
-Template.footer.onCreated(function() {
-  this.feed = new ReactiveVar();
 
-  var link = "https://graph.facebook.com/v2.11/boomtownm?fields=posts.limit(3)";
-  var arguments = {
-    headers: { "User-Agent": "Meteor/1.1" },
-    params: {
-      access_token: "198250716990059|wwB7yaEBmlAfv6tskR7P8PiNVBI"
-    }
-  };
-  Meteor.http.call(
-    "GET",
-    link,
-    arguments,
-    function(error, response) {
-      this.feed.set(response.data);
-    }.bind(this)
-  );
-});
 
-Template.footer.helpers({
-  feed1: function() {
-    return Template.instance().feed.get().posts.data[0].message;
-  },
-  feed2: function() {
-    return Template.instance().feed.get().posts.data[1].message;
-  }
-});
