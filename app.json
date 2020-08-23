@@ -11,7 +11,7 @@
 
     "buildpack": [
       {
-        "url": "https://buildpack-registry.s3.amazonaws.com/buildpacks/admithub/meteor-horse.tgz"
+        "url": "https://github.com/AdmitHub/meteor-buildpack-horse"
       }
     ],
     "env": {
