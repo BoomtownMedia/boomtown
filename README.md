@@ -15,3 +15,4 @@ under Deploy tab, select Github and deploy the master branch<br />
 
 
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BoomtownMedia/boomtown)
