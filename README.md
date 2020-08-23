@@ -1,9 +1,9 @@
 # run locally
 ```
-git clone https://github.com/BoomtownMedia/boomtown.git <br />
-cd boomtown<br />
-meteor npm install<br />
-meteor <br />
+git clone https://github.com/BoomtownMedia/boomtown.git
+cd boomtown
+meteor npm install
+meteor
 ```
 
 # Heroku deploy
