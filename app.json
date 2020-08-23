@@ -8,6 +8,12 @@
     "addons": [
       "mongolab"
     ],
+
+    "buildpack": [
+      {
+        "url": "https://buildpack-registry.s3.amazonaws.com/buildpacks/admithub/meteor-horse.tgz"
+      }
+    ],
     "env": {
       "ROOT_URL": {
         "description": "The HTTPS URL of this app: either your custom domain or default 'herokuapp.com' hostname.",
