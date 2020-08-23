@@ -6,7 +6,7 @@
     "repository": "https://github.com/Boomtown/boomtown",
     
     "addons": [
-      "mongolab",
+      "mongolab"
     ],
     "env": {
       "ROOT_URL": {
