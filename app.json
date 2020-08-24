@@ -13,5 +13,11 @@
       {
         "url": "https://github.com/AdmitHub/meteor-buildpack-horse"
       }
-    ]
+    ],
+    "env": {
+      "ROOT_URL": {
+        "description": "The HTTPS URL of this app: either your custom domain or default 'herokuapp.com' hostname.",
+        "value": "https://YOURAPPNAME.herokuapp.com"
+      }
+    }
   }
